@@ -33,10 +33,17 @@
   align-items: center;
 }
 
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  align-items: center;
+  margin-top: 56px;
+}
+
 #subtitle {
   font: var(--subtitle);
   color: var(--gray-500);
-  margin-top: 56px;
 }
 
 h1 {
