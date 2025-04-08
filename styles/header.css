@@ -5,8 +5,28 @@
   height: 750px;
 }
 
+#intro-image {
+  width: 112px;
+  height: 112px;
+  margin-top: 120px;
+}
+
+#person-image {
+  position: relative;
+  left: 19px;
+  width: 96px;
+  height: 96px;
+  gap: 8px;
+}
+
+#code {
+  border-image: solid 4px var(--gray-300);
+  position: relative;
+  right: 11px;
+}
+
 .container {
-  padding: 120px 180px 163px;
+  padding: 120px 183px 163px;
   display: flex;
   flex-direction: column;
   place-content: center;
@@ -35,6 +55,7 @@ h1 {
 #icons {
   display: flex;
   justify-content: space-between;
+  gap: 16px;
   width: 754px;
   height: 40px;
   margin-bottom: 94px;
@@ -49,11 +70,21 @@ h1 {
 .icon-border {
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  gap: 8px;
   font: var(--text-md);
   color: var(--gray-500);
   background-color: var(--gray-300);
   border-radius: 999px;
 }
+/* 
+#arrow {
+  max-width: 32px;
+  max-height: 32px;
+  gap: 5.5px 3.5px 4.5px;
+  margin-bottom: 57px;
+} */
 
 
 
