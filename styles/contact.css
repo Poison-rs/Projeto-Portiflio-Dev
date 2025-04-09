@@ -1,0 +1,40 @@
+#contact {
+  height: 787px;
+  background-image: url(../assets/Background_Contacts.png);
+  background-size: cover;
+  padding: 128px 120px 200px 120px;
+}
+
+.container-box {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 400px;
+  height: 320px;
+  margin: auto;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  height: 68px;
+  background-color: var(--gray-300);
+  border-radius: 12px;
+
+}
+
+.items div {
+  display: flex;
+  place-items: center;
+  margin: 20px;
+  gap: 12px;
+
+  img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+.items:hover {
+  border: solid 1.5px var(--blue);
+}

@@ -47,3 +47,8 @@ h2 {
   font: var(--text-sm);
   color: var(--gray-500);
 }
+
+.text-md {
+  font: var(--text-md);
+  color: var(--gray-500);
+}

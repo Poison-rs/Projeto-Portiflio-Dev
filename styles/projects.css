@@ -22,8 +22,9 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
-  min-width: 1040px;
-  min-height: 584px;
+  width: 1040px;
+  height: 584px;
+  margin: auto;
 
   img {
     max-width: 306px;
@@ -45,4 +46,8 @@ figure {
   flex-direction: column;
   gap: 4px;
   margin: 0px 12px 17px 12px;
+}
+
+figure:hover {
+  border: solid 1.5px var(--gray-400);
 }
